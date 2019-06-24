@@ -19,3 +19,5 @@ const createDog = (name, age, weight) => ({
 const dog1 = createDog('ralph', 10, '200lbs');
 
 console.log(dog1);
+
+module.exports = createDog
